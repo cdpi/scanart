@@ -1,1 +1,1 @@
-# scanart
+# ScanArt
