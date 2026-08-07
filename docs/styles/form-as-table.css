@@ -1,0 +1,20 @@
+
+form
+	{
+	display: table;
+	}
+
+form > div
+	{
+	display: table-row;
+	}
+
+form > div > *
+	{
+	display: table-cell;
+	}
+
+form > div > label
+	{
+	padding-right: .5em;
+	}

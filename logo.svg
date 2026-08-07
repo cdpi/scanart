@@ -24,11 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showborder="false"
-     showgrid="true"
-     inkscape:zoom="2"
-     inkscape:cx="134.5"
-     inkscape:cy="141.25"
-     inkscape:current-layer="layer1">
+     showgrid="false"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="405.87929"
+     inkscape:cy="147.78532"
+     inkscape:current-layer="layer1"
+     showguides="false">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -42,7 +43,7 @@
        opacity="0.14901961"
        empspacing="8"
        enabled="true"
-       visible="true" />
+       visible="false" />
   </sodipodi:namedview>
   <defs
      id="defs1" />
@@ -74,6 +75,35 @@
        id="path11"
        style="stroke-width:0.7807;stroke-linecap:round;stroke-linejoin:round"
        d="m 80,96 v 64 h 96 V 96 Z m 16,16 h 64 v 32 H 96 Z"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="stroke-width:2.54975;stroke-linecap:round;stroke-linejoin:round"
+       d="M 288,0 V 256 H 544 V 0 Z"
+       id="path2" />
+    <path
+       id="path3"
+       style="fill:#f9f9f9;stroke-width:0.7807;stroke-linecap:round;stroke-linejoin:round"
+       d="m 304,32 h 64 v 16 h -48 v 48 h -16 z"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       id="path4"
+       style="fill:#f9f9f9;stroke-width:0.7807;stroke-linecap:round;stroke-linejoin:round"
+       d="m 528,32 h -64 v 16 h 48 v 48 h 16 z"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       id="path5"
+       style="fill:#f9f9f9;stroke-width:0.7807;stroke-linecap:round;stroke-linejoin:round"
+       d="m 304,224 h 64 v -16 h -48 v -48 h -16 z"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       id="path6"
+       style="fill:#f9f9f9;stroke-width:0.7807;stroke-linecap:round;stroke-linejoin:round"
+       d="m 528,224 h -64 v -16 h 48 v -48 h 16 z"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       id="path7"
+       style="fill:#f9f9f9;stroke-width:0.7807;stroke-linecap:round;stroke-linejoin:round"
+       d="m 368,96 v 64 h 96 V 96 Z m 16,16 h 64 v 32 h -64 z"
        sodipodi:nodetypes="cccccccccc" />
   </g>
 </svg>

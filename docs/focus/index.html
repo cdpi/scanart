@@ -4,36 +4,36 @@
 <meta charset="UTF-8">
 	<title>ScanArt - Focus</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../styles/form-as-table.css">
 <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
 </head>
 <body>
 
-<!-- /docs/focus/index.html -->
 <!-- https://cdpi.github.io/scanart/focus/ -->
 
 <h1>ScanArt - Focus</h1>
 
+<form>
+	<div>
+		<label for="focale">Focale&nbsp;:</label>
+		<input id="focale">
+	</div>
+	<div>
+		<label for="distance-sujet">Distance du sujet&nbsp;:</label>
+		<input id="distance-sujet">
+	</div>
+	<div>
+		<label for="taille-sujet">Taille du sujet&nbsp;:</label>
+		<input id="taille-sujet">
+	</div>
+</form>
+
 <script type="module">
 
-import { getSensorDiagonal, getCircleOfConfusion } from "../scripts/focus.js";
+import { formOnInput } from "../scripts/main.js";
 
-const lens =
-	{
-	focal: 147.2,
-	diameter: 51
-	};
-
-// A4
-const sensor =
-	{
-	width: 210,
-	height: 297
-	};
-
-//console.log(getSensorDiagonal(sensor));
-//console.log(getCircleOfConfusion(sensor, 1500));
-
-console.log(focus(lens, 1500));
+//document.forms.item(0).addEventListener("input", formOnInput, false);
+document.forms.item(0).addEventListener("change", formOnInput, false);
 
 </script>
 

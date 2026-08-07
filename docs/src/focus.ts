@@ -1,7 +1,23 @@
 
+
+// DIAPH
+// 162 3.190196078 8
+//  51 1           2.507682852
+// 51 / 2.507682852 = 20.337499999
+
+
+
 const APERTURES = [0.5, 0.7, 1, 1.4, 2, 2.8, 4, 5.6, 8, 11, 16, 22, 32, 45, 64, 90, 128, 180, 256, 360, 512];
 
 const INCH = 25.4;
+
+/*
+type Subject =
+	{
+	size:number;
+	distance:number;
+	};
+*/
 
 type CameraLens =
 	{
@@ -49,6 +65,11 @@ function getSensorDiagonal(sensor:Sensor):number
 
 function focus(cameraLens:CameraLens, distance:number):Focus
 	{
+	//const ouvertureMultipliéParC01 = N * c;
+	//const c = ouvertureCercleDeConQqch(lens.focal, lens.size);
+	//const c = circleOfConfusion(aperture(lens.focal, lens.size));
+	//console.log(c);
+
 	const f2 = Math.pow(cameraLens.focal, 2);
 	const df2 = distance * f2;
 	const dl = distance - cameraLens.focal;
