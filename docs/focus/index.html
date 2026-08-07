@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 	<title>ScanArt - Focus</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
 </head>
 <body>
 
@@ -16,6 +17,12 @@
 
 import { getSensorDiagonal, getCircleOfConfusion } from "../scripts/focus.js";
 
+const lens =
+	{
+	focal: 147.2,
+	diameter: 51
+	};
+
 // A4
 const sensor =
 	{
@@ -23,9 +30,10 @@ const sensor =
 	height: 297
 	};
 
-console.log(getSensorDiagonal(sensor));
+//console.log(getSensorDiagonal(sensor));
+//console.log(getCircleOfConfusion(sensor, 1500));
 
-console.log(getCircleOfConfusion(sensor, 1500));
+console.log(focus(lens, 1500));
 
 </script>
 
